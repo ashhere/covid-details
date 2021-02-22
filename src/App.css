@@ -1,38 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
 .App {
   text-align: center;
+  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #F4F4F4;
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list{
+  color: bisque;
+  border-style: solid;
   display: flex;
-  flex-direction: column;
+  font-family: cursive;
+  font-size: x-large;
+  
+
+}
+
+
+
+
+.time h1{
+  font-family: cursive;
+  /* background-image: linear-gradient(to right, green , blue); */
+  text-align: center;
+  font-weight: lighter;
+  color: wheat;
+  font-family: 'EB Garamond', serif;;
+  float: center;
+  font-size: 35px;
+  background-color: black;
+  
+}
+
+h1{
+  font-family: Georgia, serif;
+  text-align: center;
+  
+}
+
+
+
+.myth{
+  color: #000000;
+  padding-top: 20px;
+  font-size: 20px;
+  
+}
+
+.myth-head{
+  font-weight:700;
+}
+.myth-bottom{
+  font-weight: 500;
+}
+
+.myth .li{
+  list-style:none;
+}
+
+.para{
+  color: aqua;
+}
+
+/* th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: inline-flex;
+  text-align: center;
+  background-color: #1F5AC8;
+  width: 300px;
+  border: 1px solid red;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+td{
+  border: 1px solid #ddd;
+padding: 8px;
+text-align: center;
+background-color: yellowgreen;
+
+} */
+
+
+th{
+  color: bisque;
+  background-color: black;
+}
+
+
+.box-cointainer{
+  height: 400px;
+  width: 90%;
+  
+padding-top: 10px;
+  /* border: 1px solid black; */
+  margin: 0 auto;
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  border: 0;
+  border-radius: 10px;
+ 
+
+}
+
+.title h1{
+  color: #231903;
+  font-family: 'EB Garamond', serif;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bolder;
+}
+
+.box h1{
+  
+  height: 280px;
+  width: 250px;
+  border: 1px solid;
+  margin: 22px;
+  background-color: white;
+  float: left;
+  box-shadow:  0px 0px 6px;
+  padding-top: 20px;
+  border: 0;
+  border-radius: 40px;
+  
+
+  
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.box1 {
+  
+  color: #ffa41b;
+  text-align: center;
+  float: left;
+ 
+}
+
+.box2{
+  
+  color: #d50000; 
+  text-align: center;
+  float: left;
+}
+
+.box3{
+  
+  color:#1b5e20  ;
+  text-align: center;
+  float: left;
+}
+
+.box4{
+  
+  color: #01579b ;
+  text-align: center;
+  float: left;
+}
+
+
+
+.nav-bar {
+  min-height: 8vh;
+  display: flex;
+  background-color: #F4F4F4;
+ 
+  border: 0;
+  border-radius: 10px;
+ justify-content: space-around;
+
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 0;
+
+  border-radius: 10px;
+  align-items: center;
+
+
+  
 }
 
-.App-link {
-  color: #61dafb;
+
+.nav-bar-link:hover{
+  text-decoration: none;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-bar h2:hover{
+  color: #d62323;
+  
 }
+
+h2:hover{
+  color: #d62323;
+  
+}
+
+
+
+
+
+
+
+.info-coint{
+  height: 320px;
+  width: 100%;
+  border: 0px dotted black;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #F4F4F4;
+  border:0;
+  border-radius: 10px;
+
+}
+
+.vid{
+float: right;
+border: 0px solid black;
+padding: 5px;
+margin-right: 10px;
+
+}
+
+.vid h1{
+  font-size: x-large;
+  font-weight: bold;
+}
+
+h2{
+  color: #20232A;
+  text-decoration: none;
+  font-family: 'EB Garamond', serif;;
+  font-weight: bolder;
+  
+}
+
+.news{
+  height: 320px;
+  width: 700px;
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.news h1{
+  font-size: xx-large;
+  font-weight: bolder;
+  float: left;
+}
+
+
+
+
+
+
+@media (max-width:700px){
+
+
+  
+.box-cointainer{
+  height: 1400px;
+  width: 90%;
+  
+padding-top: 10px;
+  /* border: 1px solid black; */
+  margin: 0 auto;
+  background-color: #9c4646;
+ 
+ 
+
+}
+  .box h1{
+  
+    height: 280px;
+    width: 250px;
+    border: 1px solid;
+    margin: 22px;
+    background-color: white;
+    float: left;
+    box-shadow:  0px 0px 6px;
+    padding-top: 20px;
+    
+  
+    
+    font-family: Georgia, 'Times New Roman', Times, serif
+  }
+  
+  .info-coint{
+    height: 700px;
+    width: 100%;
+    border: 0px dotted black;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #F4F4F4;
+    
+  
+  }
+  .vid{
+    float: left;
+    border: 0px solid black;
+    padding: 5px;
+    margin-right: 10px;
+    
+    }
+
+    .vid h1{
+      text-align: left;
+      font-size: large;
+    }
+    .news{
+      height: 4 20px;
+      width: 100%;
+      font-size: large;
+      font-weight: bold;
+    }
+    
+    .news h1{
+      font-size: xx-large;
+      font-weight: bolder;
+      float: left;
+    }
+
+    .time h1{
+      font-family: cursive;
+      /* background-image: linear-gradient(to right, green , blue); */
+      text-align: center;
+      font-weight: bolder;
+      color: white;
+      background-color:#001334;
+      height: 200px;
+      text-align: left;
+      width: 90%;
+    }
+
+
+    
+    
+      
+    
+
+
+}
+
+
